@@ -19,7 +19,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000', // adjust if needed
+  baseURL: 'https://application-nr4q.onrender.com', // adjust if needed
 });
 
 export const setAuthToken = (token) => {
